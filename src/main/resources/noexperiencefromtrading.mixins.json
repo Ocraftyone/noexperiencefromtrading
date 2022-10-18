@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "leseryk.noexperiencefromtrading.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "noexperiencefromtrading.refmap.json",
+  "mixins": [
+    "MixinMerchantOffer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
